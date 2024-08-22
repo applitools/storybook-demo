@@ -20,6 +20,7 @@
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
+    "@applitools/eyes-storybook": "latest",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
     "@storybook/addon-actions": "7.5",
     "@storybook/addon-essentials": "7.5",
