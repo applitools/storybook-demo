@@ -4,10 +4,7 @@
   "version": "1.0.0",
   "description": "Example storybook 7.5",
   "scripts": {
-    "build": "react-scripts build",
     "build-storybook": "sb build",
-    "eject": "react-scripts eject",
-    "start": "react-scripts start",
     "storybook": "sb dev -p 9010",
     "test": "npx eyes-storybook"
   },
