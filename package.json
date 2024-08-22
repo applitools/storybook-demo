@@ -1,0 +1,39 @@
+{
+  "name": "storybook-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Example storybook 7.5",
+  "scripts": {
+    "build": "react-scripts build",
+    "build-storybook": "sb build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "storybook": "sb dev -p 9010",
+    "test": "npx eyes-storybook"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "prop-types": "^15.7.2",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-lifecycles-compat": "^3.0.4",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+    "@storybook/addon-actions": "7.5",
+    "@storybook/addon-essentials": "7.5",
+    "@storybook/addon-interactions": "7.5",
+    "@storybook/addons": "7.5",
+    "@storybook/builder-webpack5": "7.5",
+    "@storybook/cli": "7.5",
+    "@storybook/manager-webpack5": "latest",
+    "@storybook/preset-create-react-app": "7.5",
+    "@storybook/react": "7.5",
+    "@storybook/react-webpack5": "7.5",
+    "@storybook/testing-library": "latest",
+    "webpack": "5.75.0"
+  },
+  "author": "support@applitools.com",
+  "license": "ISC"
+}
